@@ -1,1 +1,3 @@
-Use this folder for downloaded raw datasets. Note that if your datasets get too large you may need to store them locally.
+# Patrick Bunn, 08/28/20, assignment 1
+
+I took "by eye" monthly averages from 2019 and forecast the same stream flow for this year, with a flood in the penultimate week.
