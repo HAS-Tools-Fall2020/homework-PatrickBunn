@@ -8,6 +8,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
+import numpy as np
 
 # %% 
 # Step 3 - Read in the file in as dataframe
@@ -19,7 +20,6 @@ data=pd.read_table(filename, skiprows=3,
         names=['agency_cd', 'site_no', 'datetime', 'flow', 'code']
         )
 data = data.set_index('datetime')
-
 
 # %%
 # Step 4 - Look at the data
