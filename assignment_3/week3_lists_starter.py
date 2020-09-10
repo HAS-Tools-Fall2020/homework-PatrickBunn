@@ -76,8 +76,10 @@ print(len(ilist))
 ilist2 = [i for i in range(len(flow)) if flow[i] > 600 and month[i]==7]
 print(len(ilist2))
 
+# %% 
 # Grabbing out the data that met the criteria
 # This  subset of data is just the elements identified 
 # in the ilist
 subset = [flow[j] for j in ilist]
+subset_date = [date[j] for j in ilist]
 # %%
